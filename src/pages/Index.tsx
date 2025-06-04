@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -14,7 +13,8 @@ const Index = () => {
           </svg>
         </div>
         
-        <h1 className="text-4xl font-bold mb-4 text-gray-900">Welcome to WispaChat</h1>
+        <h1 className="text-4xl font-bold mb-2 text-gray-900">Welcome to WispaChat</h1>
+        <p className="text-sm text-gray-500 mb-4">from One Intelligence</p>
         <p className="text-xl text-gray-600 mb-8">
           A modern messaging platform that keeps you connected with friends and family.
         </p>

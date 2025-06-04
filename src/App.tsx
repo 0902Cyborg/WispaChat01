@@ -1,4 +1,3 @@
-
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
@@ -49,9 +48,9 @@ const App = () => (
                 <Route path="/new-chat" element={<NewChat />} />
                 <Route path="/friends" element={<Friends />} />
                 <Route path="/profile" element={<Profile />} />
-                <Route path="/archived-chats" element={<ArchivedChats />} />
+                <Route path="/archived" element={<ArchivedChats />} />
               </Route>
-              
+              {/* Catch all route for 404 */}
               <Route path="*" element={<NotFound />} />
             </Routes>
           </AuthProvider>
